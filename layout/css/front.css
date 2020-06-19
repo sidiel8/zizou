@@ -1,0 +1,399 @@
+/*============================== front  END ==============*/
+/*============================== categories ==============*/
+.upper-bar{
+   
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+}
+
+.main-page{
+    padding: 20px ;
+}
+.mybut{
+    margin: 5px ;
+    font-size: 20px;
+}
+
+.custom-hr{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #f81142 ;
+    
+}
+.empty-cat{
+    margin:  100px auto ;
+}
+.empty-cat h1{
+   color: #a9adb1 ;
+   font-size: 100px;
+}
+.empty-cat i{
+    color: rgb(224, 66, 66) ;
+    font-size: 100px;
+    padding-left: 30%;
+ }
+/* to css the name of the user and the category of the item*/
+.custom-user-cat  li a  {
+   
+   color: #ce552d;
+font-weight: bold;
+  
+}
+.custom-user-cat  li a:hover  {
+   
+    color: #f3470f;
+ font-weight: bold;
+   
+ }
+ .add-comment h5{
+    margin: 0px 0px 5px 0px ;
+ }
+ .add-comment button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    float: right ;
+    margin: 5px ;
+    cursor: pointer;
+    padding: 0 ;
+
+ }
+ .add-comment button i {
+    font-size: 26px;
+    color: #080707;
+    
+
+ }
+ .add-comment form textarea{
+    margin-bottom: 5px ;
+    max-width: 100% ;
+    height: auto;
+ }
+ .upper-bar-login{
+    padding: 17px;
+    background-color: #fff;
+   
+}
+
+
+.upper-bar-user{
+    padding: 0px;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+   
+   
+}
+
+.upper-bar-user  a:hover {
+   
+    color: #1315a4;
+   
+}
+.upper-bar-login a{
+    color: #1315a4;
+    font-size: 20px;    
+    margin: 0px;
+    position: absolute;
+    top: 0px;    
+    right: 100px;   
+    font-weight: 522;   
+    padding-top: 0px;
+ }
+ .upper-bar-login a:hover{
+    color: #dd12dd;
+    font-size: 20px;
+   }
+.pull-right-login{
+    float: right;
+    z-index: 5000;
+}
+
+.thumbnail{
+    width: 230px;
+    background-color: #fff ;
+    overflow: hidden;
+    position: relative ;
+    margin-bottom: 20px ;
+    padding: 5px 10px ;
+    border: #343a40 solid  3px ;
+    border-radius: 5px ;
+}
+.thumbnail .caption a {
+   
+   color: #007bff ;
+}
+.thumbnail .caption p {
+   
+    color: #007bff ;
+    height: 48px;
+    max-height: 48px
+ }
+.thumbnail .price-tag{
+    padding: 0px 12px;
+    background-color: #343a40;
+    position: absolute;
+    top: 5px;
+    color: #fff ;
+}
+
+.thumbnail .approve-item{
+   width: auto ;
+   padding:2px 5px ;
+    background-color: orangered;
+    position: absolute;
+    top: 5px;
+    right: 0 ;
+    color: #fff ;
+}
+.thumbnail img{
+    margin: auto;
+    width: 200px;
+    height:200px ;
+    border-style: double;
+    
+border-color: #fcc60d;
+    
+}
+.img-thumbnail{
+padding : 0;
+}
+/*==============================  end categories ==============*/
+
+/*============================== Login ==============*/
+
+
+.login{
+    width: 300px ;
+    margin: 10px  auto ;
+    margin-bottom:0 ;
+}
+.login a {
+   color: #0a020a ;
+} 
+.login .lock{
+   font-size: 70px;
+   margin-left:38% ;
+}
+.login input {
+    margin-bottom: 10px ;
+    border: none ;
+    border-bottom: 1px solid #EEE ;
+}
+
+.login .form-control {
+    background-color:  #e5e5e5 ;
+}
+/*================================profile ===========================*/
+.block{
+    margin: 20px 0 0 ;
+}
+.panel-heading{
+ background-color: #007bff ;
+ color: #fff ;
+ padding: 0px 10px;
+ font-size: 20px;
+}
+.panel-body{
+   padding: 10px;
+   background-color: #fff ;
+   }
+.panel-primary{
+    border: #007bff solid 3px ;
+    border-radius: 5px;
+}
+.right{
+    float: right ;
+    margin-bottom: 15px ;
+}
+.information ul {
+    padding:0;
+    margin:0;
+}
+.information ul  li{
+    padding:10px;
+    margin:0;
+    border-radius: 5px ;
+}
+.information ul  li:nth-child(odd){
+   background-color: #EEE ;
+}
+.information ul  li span {
+   display: inline-block ;
+   width: 140px;
+}
+/*****/
+.info p {
+    padding:2px 10px;
+    font-size: 20px ;
+    margin: 0;
+}
+.info h2 {
+    color: #1796f3;
+    margin: 0;
+    padding:2px 10px;
+    font-weight: bold ;
+    font-family: Courier New, Courier, monospace ;
+}
+.info ul {
+    padding:0;
+    margin:0;
+}
+.info ul  li{
+    padding:2px 10px;
+    margin:0;
+    border-radius: 5px ;
+}
+.info ul  li:nth-child(odd){
+    background-color: rgba(13, 16, 17, 0.89);
+    color: #fff;
+}
+.info ul  li span {
+   display: inline-block ;
+   width: 140px;
+}
+/* ------------ to css  comments __________---------==============*/
+.latest .comment-box .comment .comment-control .btn {
+    color: #3c3232;
+    background-color: #efefef;
+    border: none ;
+}
+.latest .comment-box .comment-user ,
+.latest .comment-box .comment {
+   float: left;
+}
+
+.latest .comment-box .comment-user 
+ {
+     width: auto;
+   margin-right: 10px ;
+   background-color: #fff;
+   color: #1077b8 ;
+}
+.latest .comment-box .comment {
+    width: calc(100% - 166px);
+    float: right;
+    padding: 5px 5px 5px 8px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: #efefef;
+    border-radius: 5px;
+ } 
+ .latest-users  .evenli li {
+    background-color: #fff;
+ }
+ .latest .comment-box .comment:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #e7e3e8 transparent transparent;
+    border-width: 16px;
+ }
+/*=================================================================*/
+/* ===================================================== */
+/* start main rulez */
+body{
+    background-color: #f4f4f4;
+    font-size: 18px ;
+    font-weight: 400;
+    width: 100% ;
+    padding-bottom: 20px;
+}
+.container{
+    width: 100%;
+    padding: 0;
+ 
+}
+h1{
+    font-weight: bold ;
+    color: rgb(58, 56, 56);
+}
+hr {
+    margin: 0;
+}
+
+a {
+    color: #ced5dc;
+    text-decoration: none;
+   
+    -webkit-text-decoration-skip: objects;
+} 
+a:hover {
+    color: #a9adb1;
+    text-decoration: none;
+   
+    -webkit-text-decoration-skip: objects;
+} 
+.flll{
+    float: right ;
+}
+
+.dropdown {
+   
+    padding: 0px 10px;
+   
+    border-radius: 2px;
+}
+
+    
+.mr-auto {
+    margin-right: 0px; 
+}
+
+.dropdown-menu {
+    padding: 0 px;
+    background-color: #0088dd ;
+}
+.dropdown-item {
+   background-color: #0088dd ;
+  
+    color: #fff ;
+}
+.date small{
+    font-weight: bold ;
+    float: right ;
+    padding: 0;
+    margin: 0;
+    color: #aaa;
+} 
+/*__________comment box-items------------------*/
+.comment-box-item{
+    margin-bottom: 10px ;
+
+    border-radius: 5px;
+}
+.comment-box-item img{
+   max-width: 80px;
+   display: block;
+   margin: auto ;
+   
+}
+ 
+.comment-box-item a {
+    color:#0088dd;
+    font-weight: bold ;
+}
+.comment-box-item .lead {
+    background-color: #e0e0e0 ;
+    padding:10px ;
+    position:relative ;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.comment-box-item .lead:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 18px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+    position: absolute;
+    top: 3px;
+    left: -35px;
+
+}

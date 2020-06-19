@@ -1,0 +1,12 @@
+body{
+    height: 800px;
+}
+.sec-class{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sec-class h1 span{
+    color:#e41b17;
+}
